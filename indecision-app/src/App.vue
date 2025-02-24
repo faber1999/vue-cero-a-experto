@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import MyCounter from './components/MyCounter.vue';
+import MyCounterSrc from './components/MyCounterSrc.vue';
 
 </script>
 
 <template>
-  <h1>Mi primera app</h1>
+  <h1 className="text-3xl font-bold underline">
+      Hello world!
+  </h1>
   <hr>
-  <MyCounter />
+  <MyCounter :value="1" />
+  <MyCounterSrc :value="2" />
 </template>
