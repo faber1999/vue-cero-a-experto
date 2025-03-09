@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useCounter } from '@/composables/useCounter';
-import { ref, computed } from 'vue'
 
 const props = defineProps({
   value: Number
